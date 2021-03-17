@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+ {%for aux in dic%}
+            {% if type(dic[aux]) == type(list()) %}
+                {% for aux2 in dic[aux] %}
+                    <br> {{aux2}}
+                {% endfor%}
+            
+            {% else %}    
+                <br> {{dic[aux]}}
+            {% endif %}
+
+        {% endfor %}
+
+{% endblock  %} 

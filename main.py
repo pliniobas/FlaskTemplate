@@ -1,0 +1,1 @@
+from application import app #variavel app, dentro da pasta application/__init__.py
