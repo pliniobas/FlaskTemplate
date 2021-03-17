@@ -1,1 +1,16 @@
+application/0monitor_pablo_dfcheck.xlsx
+application/0monitor_pablo_dfcheck2.xlsx
+application/0monitor_pablo_dfsensor.xlsx
+application/0monitor_pablo_dfcheck.html
 *.pyc
+application/__pycache__/routes.cpython-39.pyc
+application/__pycache__/__init__.cpython-39.pyc
+monitor/0monitor_pablo_dfcheck.html
+monitor/0monitor_pablo_dfcheck.xlsx
+monitor/0monitor_pablo_dfcheck2.xlsx
+monitor/0monitor_pablo_dfsensor.xlsx
+monitor/0monitor_pablo_imei_list.xlsx
+monitor/0monitor_pablo.py
+monitor/monitor_pablo.py
+monitor/testeb.py
+

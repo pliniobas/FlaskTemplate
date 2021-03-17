@@ -1,0 +1,11 @@
+Esse template precisa do servidor MS SQL Express instalado para funcionar. 
+O script dentro da pasta outros/flask-alchemy teste em SQL.py pode ajudar a testar a conexao com o servidor.
+Na configuração padrão, ele está acessando a instancia SQLSERVER2019 e o database ppablos com o username sa e senha padrão da SQLSERVER2019 123456
+##########################################
+#A configuração está dentro do arquivo __init__.py
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc://sa:123456@(local)\SQLEXPRESS2019/ppablos?driver=ODBC+Driver+17+for+SQL+Server'
+##########################################
+Num primeiro acesso, o SQL precisa ter a database ppablos criada.
+Para se criar a tabela users, enrollment e courses, basta clicar na aba Register. Ele irá checar se existe a tabela user e caso não, irá criar todas as tabelas 
+descritas no arquivo model.py
+Pode-se usar a funcao oculta localhost/create_courses para criar uma lista simples de cursos, e basta registrar os usuarios normalmente para criar novos usuarios.

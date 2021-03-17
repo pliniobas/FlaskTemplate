@@ -96,3 +96,10 @@ footer {
     opacity: 1;
 }
 
+.user {
+    float: right;
+    position: absolute;
+    font-size: 25px;
+    right: 10em;
+    top: 2em;
+}

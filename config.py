@@ -1,4 +1,7 @@
 import os
 
 class Config(object):
-    SECRET_KEY = os.environ.get("string-danada-de-secreta")
+    SECRET_KEY: os.environ.get("SECRET_key") or "secret_string"
+
+
+
